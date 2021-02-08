@@ -1,0 +1,28 @@
+plugins {
+	id 'org.springframework.boot' version '2.4.2'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+}
+
+group = 'it.tonic'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-webflux'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation 'io.projectreactor:reactor-test'
+	compile group: 'io.reactivex.rxjava3', name: 'rxjava', version: '3.0.10'
+	compile 'com.typesafe.akka:akka-actor-typed_2.13:2.6.12'
+	compile 'ch.qos.logback:logback-classic:1.2.3'
+	testCompile 'com.typesafe.akka:akka-actor-testkit-typed_2.13:2.6.12'
+	testCompile 'junit:junit:4.13.1'
+}
+
+test {
+	useJUnitPlatform()
+}
