@@ -1,6 +1,6 @@
-package it.tonic.fullapprxjava.service;
+package it.tony.fullapprxjava.service;
 
-import it.tonic.fullapprxjava.model.CoinBaseResponse;
+import it.tony.fullapprxjava.model.CoinBaseResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;

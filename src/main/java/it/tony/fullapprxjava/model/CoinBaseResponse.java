@@ -1,4 +1,4 @@
-package it.tonic.fullapprxjava.model;
+package it.tony.fullapprxjava.model;
 
 public class CoinBaseResponse {
 

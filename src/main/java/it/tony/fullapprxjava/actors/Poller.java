@@ -1,4 +1,4 @@
-package it.tonic.fullapprxjava.actors;
+package it.tony.fullapprxjava.actors;
 
 import akka.actor.AbstractActorWithTimers;
 import akka.actor.ActorRef;

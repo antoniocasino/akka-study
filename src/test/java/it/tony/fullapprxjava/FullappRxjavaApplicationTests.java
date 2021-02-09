@@ -1,4 +1,4 @@
-package it.tonic.fullapprxjava;
+package it.tony.fullapprxjava;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

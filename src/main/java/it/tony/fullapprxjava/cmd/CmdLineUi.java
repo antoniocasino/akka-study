@@ -1,11 +1,11 @@
-package it.tonic.fullapprxjava.cmd;
+package it.tony.fullapprxjava.cmd;
 
 import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
-import it.tonic.fullapprxjava.actors.Poller;
-import it.tonic.fullapprxjava.actors.PriceRequestor;
-import it.tonic.fullapprxjava.actors.Printer;
-import it.tonic.fullapprxjava.service.CoinBaseService;
+import it.tony.fullapprxjava.actors.Poller;
+import it.tony.fullapprxjava.actors.PriceRequestor;
+import it.tony.fullapprxjava.actors.Printer;
+import it.tony.fullapprxjava.service.CoinBaseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

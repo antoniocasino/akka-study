@@ -1,9 +1,8 @@
-package it.tonic.fullapprxjava.actors;
+package it.tony.fullapprxjava.actors;
 
 import akka.actor.AbstractActor;
 import akka.actor.Props;
-import it.tonic.fullapprxjava.model.CoinBaseResponse;
-import it.tonic.fullapprxjava.service.CoinBaseService;
+import it.tony.fullapprxjava.model.CoinBaseResponse;
 import reactor.core.publisher.Mono;
 
 import java.time.LocalDateTime;

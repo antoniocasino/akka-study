@@ -1,9 +1,7 @@
-package it.tonic.fullapprxjava;
+package it.tony.fullapprxjava;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 public class FullappRxjavaApplication {

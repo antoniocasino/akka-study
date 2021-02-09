@@ -1,4 +1,4 @@
-package it.tonic.fullapprxjava.config;
+package it.tony.fullapprxjava.config;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;

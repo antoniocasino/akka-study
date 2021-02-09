@@ -1,8 +1,8 @@
-package it.tonic.fullapprxjava.observer;
+package it.tony.fullapprxjava.observer;
 
 import io.reactivex.rxjava3.annotations.NonNull;
 import io.reactivex.rxjava3.observers.DefaultObserver;
-import it.tonic.fullapprxjava.model.CoinBaseResponse;
+import it.tony.fullapprxjava.model.CoinBaseResponse;
 import reactor.core.publisher.Mono;
 
 import java.time.LocalDateTime;
